@@ -16,6 +16,7 @@
                 color: #fff;
                 font-family: 'Courier New', Courier, monospace;
                 text-align: center;
+                padding-top: 60px;
             }
             h1, h2, h3, h4, h5, p {
                 color: #ffffff;
@@ -25,29 +26,59 @@
                 color: #ff0000;
             }
             button {
-        padding: 15px 30px; 
-        font-size: 18px; 
-        border-radius: 25px; 
-        border: none; 
-        background-color: #007BFF; 
-        color: white; 
-        cursor: pointer; 
-        margin: 10px;
-        font-family: 'Courier New', Courier, monospace; 
-    }
-
-    button:hover {
-        background-color: #b30000; 
-    }
+                padding: 15px 30px; 
+                font-size: 18px; 
+                border-radius: 25px; 
+                border: none; 
+                background-color: #007BFF; 
+                color: white; 
+                cursor: pointer; 
+                margin: 10px;
+                font-family: 'Courier New', Courier, monospace; 
+            }
+            nav {
+                background-color: rgba(3, 100, 211, 0.8);
+                padding: 10px 0;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px; 
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li {
+                margin: 0 15px;
+            }
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            nav ul li a:hover {
+                color: #ff0000;
+            }
+            button:hover {
+                background-color: #b30000; 
+            }
         </style>
     </head>
     <body>
-        <h1>VXCore Games - Free Demo Mode</h1>
-        <h2>Below you will find buttons that link to various labeled games in fullscreen</h2>
-        <h3>Please note that since this website is hosted on a free website hosting service, things will be glitchy or load slowly, This website will be moving to a paid hosting service or homemade hosting service at around august 2025 which will load things much faster</h3>
-        <button onclick="window.location.href='https://forms.gle/i3GE4sae9ofpJYBZA';" style="position: relative;">
-            <span>Full version purchase request (if you buy one a new link will be created for you only for your personal use)</span>
-        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games-list.html">Games</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>VXCore Games - Full Version</h1>
         
         <hr>
 
@@ -61,9 +92,9 @@
             <span>Snow Rider 3D</span>
         </button>
 
-        <button onclick="window.location.href='full-version-not-purchased.html';" style="position: relative;">
+        <button onclick="window.location.href='browserquest/client/index.html';" style="position: relative;">
             <img src="browserquest.jpg" alt="Browserquest Icon"  style="width: 100px; height: 100px; display: block; margin: 0 auto;">
-            <span>Browser Quest (only availble on full version)</span>
+            <span>Browser Quest</span>
         </button>
 
         <button onclick="window.location.href='wbwwb/index.html';" style="position: relative;">
@@ -71,9 +102,9 @@
             <span>We Become What We Behold (not working, cant figure out why)</span>
         </button>
 
-        <button onclick="window.location.href='full-version-not-purchased.html';" style="position: relative;">
+        <button onclick="window.location.href='slopeoffline.html';" style="position: relative;">
             <img src="slope-logo.jpg" alt="slope Icon"  style="width: 100px; height: 100px; display: block; margin: 0 auto;">
-            <span>slope (only availible on full version)</span>
+            <span>slope</span>
         </button>
 
         <!--<button onclick="window.location.href='placeholder.html';" style="position: relative;">
@@ -90,6 +121,6 @@
         <br>
         <br>
 
-        <h6>This Website Was Created By And Property Of Abraham.A</h6>
+        <h6>This Website Was Created By And is Property Of Abraham.A</h6>
     </body>
 </html>
