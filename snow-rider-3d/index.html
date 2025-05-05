@@ -12,9 +12,9 @@
     <meta name="author" content="Your Name">
     <meta name="keywords" content="Snow Rider 3D, skiing game, winter sports, snowboarding, ski game, mountain landscapes, skiing adventure, snowboarding adventure, snowy mountain, sleigh ride, winter game">
     <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
+    <script src="build/UnityLoader.js"></script>
     <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/SnowRider3D-gd-1.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+        var gameInstance = UnityLoader.instantiate("gameContainer", "build/SnowRider3D-gd-1.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
 </head>
 <body style="overflow:hidden;padding:0px;margin:0px;">
