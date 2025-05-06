@@ -4,27 +4,65 @@
         <title>Unavailible</title>
         <style>
             body {
-                background-color: #000000;
-                font-family: Arial, sans-serif;
+                background-image: url('website-background.png');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 100vh; 
+                margin: 0; 
+                padding: 0; 
+                color: #fff;
+                font-family: 'Comfortaa', sans-serif;
                 text-align: center;
-                padding: 50px;
+                padding-top: 60px;
             }
-            h1, h2 {
+            h1, h2, h3, h4, h5, p {
                 color: #ffffff;
-                font-family: 'Courier New', Courier, monospace;
+                font-family: 'Comfortaa', sans-serif;
+            }
+            h6 {
+                color: #ff0000;
             }
             button {
                 padding: 15px 30px; 
                 font-size: 18px; 
                 border-radius: 25px; 
                 border: none; 
-                background-color: #007BFF; 
+                background-color: #5c5c5c; 
                 color: white; 
                 cursor: pointer; 
                 margin: 10px;
-                font-family: 'Courier New', Courier, monospace; 
+                font-family: 'Comfortaa', sans-serif; 
             }
-
+            nav {
+                background-color: rgb(255, 255, 255);
+                padding: 10px 0;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px; 
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+            nav ul li {
+                margin: 0 15px;
+            }
+            nav ul li a {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                font-size: 18px;
+                font-family: 'Comfortaa', sans-serif;
+            }
+            nav ul li a:hover {
+                color: #ff0000;
+            }
             button:hover {
                 background-color: #b30000; 
             }
