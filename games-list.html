@@ -2,25 +2,30 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>VXCore Games List V6.1</title>
+        <title>VXCore Games List V7</title>
         <link rel="icon" type="image/x-icon" href="logo.png">
         <style>
             body {
-                background-image: url('website-background.png');
+                background-color: #0e0e0e;
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 100vh; 
                 margin: 0; 
                 padding: 0; 
-                color: #fff;
-                font-family: 'Comfortaa', sans-serif;
+                font-family: monospace;
                 text-align: center;
                 padding-top: 60px;
             }
-            h1, h2, h3, h4, h5, p {
+            h1 {
                 color: #ffffff;
-                font-family: 'Comfortaa', sans-serif;
+                font-family: monospace;
+                font-size: 50px;
+            }
+            h2, h3, h4, h5, p {
+                color: #ffffff;
+                font-family: monospace;
+                font-weight: bold;
             }
             h6 {
                 color: #ff0000;
@@ -30,21 +35,23 @@
                 font-size: 18px; 
                 border-radius: 25px; 
                 border: none; 
-                background-color: #5c5c5c; 
+                background-color: #131313; 
                 color: white; 
                 cursor: pointer; 
                 margin: 10px;
-                font-family: 'Comfortaa', sans-serif; 
+                font-family: monospace; 
             }
             nav {
-                background-color: rgb(255, 255, 255);
+                background-color: #141414;
                 padding: 10px 0;
                 position: fixed;
                 top: 0;
                 width: 100%;
                 z-index: 1000;
                 border-bottom-left-radius: 15px;
-                border-bottom-right-radius: 15px; 
+                border-bottom-right-radius: 15px;
+                font-family: monospace;
+                font-weight: bold; 
             }
             nav ul {
                 list-style-type: none;
@@ -52,15 +59,19 @@
                 padding: 0;
                 display: flex;
                 justify-content: center;
+                font-family: monospace;
+                font-weight: bold;
             }
             nav ul li {
                 margin: 0 15px;
+                font-family: monospace;
+                font-weight: bold;
             }
             nav ul li a {
-                color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
                 text-decoration: none;
                 font-size: 18px;
-                font-family: 'Comfortaa', sans-serif;
+                font-family: monospace;
             }
             nav ul li a:hover {
                 color: #ff0000;
@@ -96,6 +107,11 @@
         <button onclick="window.location.href='cookie-clicker/index.html';" style="position: relative;">
             <img src="cookie-clicker-logo.png" alt="placeholder Icon"  style="width: 100px; height: 100px; display: block; margin: 0 auto;">
             <span>Cookie Clicker</span>
+        </button>
+
+        <button onclick="window.location.href='drift-boss.html';" style="position: relative;">
+            <img src="drift-boss-logo.png" alt="placeholder Icon"  style="width: 100px; height: 100px; display: block; margin: 0 auto;">
+            <span>Drift Boss</span>
         </button>
 
         <button onclick="window.location.href='full-version-not-purchased.html';" style="position: relative;">
